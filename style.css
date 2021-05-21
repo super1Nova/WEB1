@@ -1,0 +1,33 @@
+body{
+    width:800px;
+    margin:0;
+}
+a, h1{
+    color:black; text-decoration:none;
+}
+h1{
+    font-size:45px; 
+    text-align:center; 
+    border-bottom:thin solid black; 
+    display:block; 
+    width:720px;
+    margin:0;
+    padding:20px;
+}
+.saw{
+    color:gray;
+}
+#grid{
+    display:grid;
+    grid-template-columns:190px 1fr;
+}
+#grid ol{
+    padding:20px;
+    padding-left:30px;
+    border-right:thin solid black;
+    margin:0;
+}
+#grid #article{
+    padding-left:20px;
+    padding-right:5px;
+}
